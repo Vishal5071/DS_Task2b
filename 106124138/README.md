@@ -6,22 +6,22 @@
 ## Binary TreesProject Overview
 This assignment focuses on two problems using a Binary Tree built from a level-order array
 ### Minimum Phones
-    Find the minimum number of nodes (phones) required to cover every node (family member) in the tree using a **Greedy DFS algorithm**.
+Find the minimum number of nodes (phones) required to cover every node (family member) in the tree using a **Greedy DFS algorithm**.
 ### XOR Calculation
-    Find the count of phone pairs whose prime value XOR is outside a given range *[l, r]*.
+Find the count of phone pairs whose prime value XOR is outside a given range [l, r].
 
 ## Build and Run
 
-1. To compile the code (assuming main.c and helper.c are used) and run the executable:
-**Compile**:
+To compile the code (assuming main.c and helper.c are used) and run the executable:
+1. **Compile**:
     ```bash
     make all
     ```
-**Run**:
+2. **Run**:
     ```bash
     make run
     ```
-**Clean**: 
+3. **Clean**: 
     ```bash
     make clean
     ```
