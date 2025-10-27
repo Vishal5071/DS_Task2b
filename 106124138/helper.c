@@ -70,6 +70,10 @@ node *levelOrderToTree(const int *levelOrder, int n) {
 // returns the minimum number of phones needed for the problem
 int minPhones(int *arr, int n) {
 	if (n == 0) return 0;
+	if (n > MAX_N) {
+		fprintf(stderr, "Number of nodes exceeds the given limit\n");
+		return -1;
+	}
 	node *root = levelOrderToTree(arr, n);
 	int ret = 0;
 	int state = dfs(root, &ret);
